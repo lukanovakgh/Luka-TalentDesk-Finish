@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.complexity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.complexity-item {
+  margin-right: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  color: gray;
+}
+
+.sample-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sample-case {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.case-label {
+  text-align: left;
+  font-size: 20px;
+  color: gray;
+}
+
+.sample-button-list {
+  display: flex;
+  align-items: center;
+  margin: 10px 50px;
+}
+
+.sample-button {
+  margin-right: 20px;
+  border: 1px solid #9e9e9e;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #9e9e9e;
+}
+
+.sample-button.active {
+  border: 1px solid white;
+  color: white;
+}
+
+.sample-button:hover {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-label {
+  margin-right: 10px;
+  font-size: 20px;
+  color: gray;
+}
+
+.input-pan {
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.input-rule {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+
+.input-error {
+  position: absolute;
+  left: 80px;
+  top: 35px;
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+}
+
+.result-layer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.result-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #282c34;
+  background: aqua;
+  cursor: pointer;
+}
+
+.result-button:hover {
+  opacity: 0.8;
+}
+
+.result-pair {
+  font-size: 25px;
+  word-spacing: 20px;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.result-item {
+  word-spacing: 20px;
+}
